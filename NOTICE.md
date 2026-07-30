@@ -1,11 +1,16 @@
-NOTICE
+# NOTICE
 
-This handbook is the official administrative reference for the
-Donnager scientific computing server.
+The **Donnager Administrator's Handbook** is the official technical
+documentation for the Donnager scientific computing server.
 
-The procedures, configurations, and recommendations contained
-within this publication reflect the configuration of the Donnager
-system at the time of publication.
+Its purpose is to preserve the complete operational knowledge required
+to install, configure, administer, maintain, troubleshoot, and recover
+the server environment.
 
-This document is maintained under version control using Git and
-GitHub. Revision history is available through the repository.
+The handbook is maintained as a living document under Git version
+control. Source documentation is authored in Markdown and published as
+professionally formatted PDF editions.
+
+Copyright © 2026 David Woodruff (drw72)
+
+See `LICENSE.md` for copyright, licensing, disclaimer, and usage terms.
