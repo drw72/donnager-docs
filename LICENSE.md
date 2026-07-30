@@ -22,9 +22,19 @@ TRADEMARKS
 
 All product names, trademarks, registered trademarks, company names, and logos mentioned in this publication remain the property of their respective owners and are used for identification purposes only.
 
+Third-party software and documentation referenced in this handbook remain subject to their respective licenses and terms of use.
+
+---------------------------------------------------------------------
+
+DOCUMENT SCOPE
+
+This handbook documents the configuration, administration,maintenance, and operation of the Donnager scientific computing server as configured by the author. It is not intended to be a general-purpose Linux administration manual.
+
 ---------------------------------------------------------------------
 
 DOCUMENT INFORMATION
+
+Revision History: Complete revision history is maintained through Git version control and the associated GitHub repository.
 
 Title: Donnager Administrator's Handbook
 
@@ -34,4 +44,4 @@ Initial Publication: 2026
 
 Current Version: See the VERSION file in this repository.
 
-Repository: https://github.com/drw72/donnager-docs
+Git Repository: https://github.com/drw72/donnager-docs
