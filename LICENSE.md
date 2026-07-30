@@ -1,47 +1,88 @@
+# LICENSE
+
 Copyright © 2026 David Woodruff (drw72)
 
 All rights reserved.
 
-This publication and its contents are protected by copyright law. No part of this publication may be reproduced, distributed, transmitted, stored in a retrieval system, or translated into any language, in any form or by any means, electronic, mechanical, photocopying, recording, or otherwise, without the prior written permission of the copyright holder, except for brief quotations used in reviews, scholarly works, or as otherwise permitted by applicable copyright law.
+This publication and its contents are protected by copyright law. No
+part of this publication may be reproduced, distributed, transmitted,
+stored in a retrieval system, or translated into any language, in any
+form or by any means, electronic, mechanical, photocopying, recording,
+or otherwise, without the prior written permission of the copyright
+holder, except for brief quotations used in reviews, scholarly works, or
+as otherwise permitted by applicable copyright law.
 
----------------------------------------------------------------------
+------------------------------------------------------------------------
 
-DISCLAIMER
+## DISCLAIMER
 
-This handbook documents the configuration, administration, maintenance, and operation of the Donnager scientific computing server.
+This handbook documents the configuration, administration, maintenance,
+and operation of the **Donnager** scientific computing server.
 
-Although every effort has been made to ensure the accuracy of the information contained herein, the author makes no representations or warranties, express or implied, regarding its completeness, accuracy, reliability, or suitability for any particular purpose.
+Although every effort has been made to ensure the accuracy of the
+information contained herein, the author makes no representations or
+warranties, express or implied, regarding its completeness, accuracy,
+reliability, or suitability for any particular purpose.
 
-System configurations, software versions, hardware components, and operating procedures may change over time. Readers are responsible for verifying commands and procedures before applying them to production systems.
+System configurations, software versions, hardware components, and
+operating procedures may change over time. Readers are responsible for
+verifying commands and procedures before applying them to production
+systems.
 
-The author assumes no liability for data loss, hardware damage, software corruption, service interruption, or any direct, indirect, incidental, or consequential damages resulting from the use or misuse of the information contained in this publication.
+The author assumes no liability for data loss, hardware damage, software
+corruption, service interruption, or any direct, indirect, incidental,
+or consequential damages resulting from the use or misuse of the
+information contained in this publication.
 
----------------------------------------------------------------------
+------------------------------------------------------------------------
 
-TRADEMARKS
+## TRADEMARKS
 
-All product names, trademarks, registered trademarks, company names, and logos mentioned in this publication remain the property of their respective owners and are used for identification purposes only.
+All product names, trademarks, registered trademarks, company names, and
+logos mentioned in this handbook remain the property of their respective
+owners and are used solely for identification purposes.
 
-Third-party software and documentation referenced in this handbook remain subject to their respective licenses and terms of use.
+Third-party software, documentation, and trademarks referenced in this
+handbook remain subject to their respective licenses and terms of use.
 
----------------------------------------------------------------------
+------------------------------------------------------------------------
 
-DOCUMENT SCOPE
+## DOCUMENT SCOPE
 
-This handbook documents the configuration, administration,maintenance, and operation of the Donnager scientific computing server as configured by the author. It is not intended to be a general-purpose Linux administration manual.
+This handbook documents the configuration, administration, maintenance,
+and operation of the **Donnager** scientific computing server as
+configured by the author. It is not intended to be a general-purpose
+Linux administration manual.
 
----------------------------------------------------------------------
+------------------------------------------------------------------------
 
-DOCUMENT INFORMATION
+## PUBLICATION STATUS
 
-Revision History: Complete revision history is maintained through Git version control and the associated GitHub repository.
+This handbook is a living document. It is maintained under version
+control and updated as the Donnager platform evolves.
 
-Title: Donnager Administrator's Handbook
+------------------------------------------------------------------------
 
-Author: David Woodruff (drw72)
+## REVISION HISTORY
 
-Initial Publication: 2026
+Complete revision history is maintained through Git version control and
+the associated GitHub repository.
 
-Current Version: See the VERSION file in this repository.
+------------------------------------------------------------------------
 
-Git Repository: https://github.com/drw72/donnager-docs
+## DOCUMENT INFORMATION
+
+**Title**\
+Donnager Administrator's Handbook
+
+**Author**\
+David Woodruff (drw72)
+
+**Initial Publication**\
+2026
+
+**Current Version**\
+See the `VERSION` file in this repository.
+
+**Git Repository**\
+https://github.com/drw72/donnager-docs
