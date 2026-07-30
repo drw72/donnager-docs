@@ -1,0 +1,29 @@
+from: markdown+yaml_metadata_block+smart
+standalone: true
+toc: true
+toc-depth: 3
+number-sections: true
+pdf-engine: xelatex
+
+variables:
+  documentclass: report
+  classoption:
+    - oneside
+    - openany
+  papersize: letter
+  fontsize: 11pt
+  geometry:
+    - top=0.85in
+    - bottom=0.85in
+    - left=0.9in
+    - right=0.9in
+    - headheight=15pt
+  mainfont: DejaVu Serif
+  sansfont: DejaVu Sans
+  monofont: JetBrains Mono
+  colorlinks: true
+  linkcolor: blue
+  urlcolor: blue
+
+include-in-header:
+  - styles/handbook-header.tex

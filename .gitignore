@@ -1,0 +1,26 @@
+# Generated handbook output
+output/pdf/*
+output/html/*
+output/epub/*
+
+# Preserve empty output directories
+!output/pdf/.gitkeep
+!output/html/.gitkeep
+!output/epub/.gitkeep
+
+# LaTeX temporary files
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Editor and OS files
+*.swp
+*.tmp
+*.bak
+.DS_Store
+.vscode/
+.idea/

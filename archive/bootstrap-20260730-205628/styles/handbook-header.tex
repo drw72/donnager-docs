@@ -1,0 +1,55 @@
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage{caption}
+\usepackage{setspace}
+
+\definecolor{DonnagerBlue}{HTML}{243B53}
+\definecolor{DonnagerGray}{HTML}{52606D}
+\definecolor{CodeBackground}{HTML}{F2F4F7}
+
+\setstretch{1.08}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+
+\titleformat{\chapter}
+  {\normalfont\huge\bfseries\color{DonnagerBlue}}
+  {\thechapter}
+  {1em}
+  {}
+
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{DonnagerBlue}}
+  {\thesection}
+  {0.75em}
+  {}
+
+\titleformat{\subsection}
+  {\normalfont\large\bfseries\color{DonnagerGray}}
+  {\thesubsection}
+  {0.75em}
+  {}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{Donnager Administrator's Handbook}
+\fancyhead[R]{\leftmark}
+\fancyfoot[C]{Page \thepage\ of \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\setlist[itemize]{topsep=4pt,itemsep=2pt}
+\setlist[enumerate]{topsep=4pt,itemsep=2pt}
+
+\captionsetup{
+  font=small,
+  labelfont=bf
+}

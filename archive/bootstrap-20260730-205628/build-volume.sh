@@ -16,17 +16,24 @@ CHAPTER_DIR="$VOLUME_DIR/chapters"
 METADATA_FILE="$VOLUME_DIR/metadata.yaml"
 OUTPUT_DIR="$ROOT_DIR/output/pdf"
 
-[[ -d "$VOLUME_DIR" ]] || { echo "ERROR: Missing $VOLUME_DIR" >&2; exit 1; }
-[[ -f "$METADATA_FILE" ]] || { echo "ERROR: Missing $METADATA_FILE" >&2; exit 1; }
+if [[ ! -d "$VOLUME_DIR" ]]; then
+    echo "ERROR: Volume directory not found: $VOLUME_DIR" >&2
+    exit 1
+fi
+
+if [[ ! -f "$METADATA_FILE" ]]; then
+    echo "ERROR: Metadata file not found: $METADATA_FILE" >&2
+    exit 1
+fi
 
 mapfile -t CHAPTERS < <(
     find "$CHAPTER_DIR" -maxdepth 1 -type f -name '*.md' -print | sort
 )
 
-(( ${#CHAPTERS[@]} > 0 )) || {
+if [[ ${#CHAPTERS[@]} -eq 0 ]]; then
     echo "ERROR: No Markdown chapters found in $CHAPTER_DIR" >&2
     exit 1
-}
+fi
 
 mkdir -p "$OUTPUT_DIR"
 

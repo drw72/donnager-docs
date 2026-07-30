@@ -1,0 +1,15 @@
+---
+title: "Donnager Administrator's Handbook"
+subtitle: "Volume I - JupyterHub and Scientific Python"
+author: "Dave W."
+date: "2026"
+subject: "Administration of the Donnager scientific-computing server"
+keywords:
+  - Donnager
+  - JupyterHub
+  - JupyterLab
+  - Scientific Python
+  - Ubuntu
+rights: "Private administrative documentation"
+lang: en-US
+---
