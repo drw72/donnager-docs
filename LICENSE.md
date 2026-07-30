@@ -1,4 +1,4 @@
-Copyright © 2026 Dave Woodruff (drw72)
+Copyright © 2026 David Woodruff (drw72)
 
 All rights reserved.
 
@@ -28,7 +28,7 @@ DOCUMENT INFORMATION
 
 Title: Donnager Administrator's Handbook
 
-Author: Dave Woodruff (drw72)
+Author: David Woodruff (drw72)
 
 Initial Publication: 2026
 
