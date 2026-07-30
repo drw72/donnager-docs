@@ -1,0 +1,124 @@
+Volume I — JupyterHub & Scientific Python
+
+(In Progress)
+
+1. Introduction
+2. Server Architecture
+3. JupyterHub Installation
+4. JupyterLab Configuration
+5. Multi-user Administration
+6. Conda Environment Management
+7. Scientific Python Stack
+8. Git Integration
+9. Recommended Extensions
+10. Themes (Catppuccin Mocha)
+11. JetBrains Mono Configuration
+12. Keyboard Shortcuts
+13. Plotting (Matplotlib & Plotly)
+14. Troubleshooting
+15. Backup & Recovery
+
+⸻
+
+Volume II — BASE-9 Scientific Computing
+
+1. Overview
+2. Installation (Release 9.6.3)
+3. Directory Structure
+4. Model Installation
+5. YAML Configuration
+6. Running MCMC
+7. Multi-thread Optimization
+8. Performance Tuning
+9. Common Errors
+10. Batch Processing
+11. Result Analysis
+12. Upgrading BASE-9
+
+This volume would include everything from your recent installation on Donnager, including:
+
+* /opt/base9/9.6.3
+* base-models installation
+* singlePopMcmc
+* sampleMass
+* makeCMD
+* YAML examples
+* --threads
+* HPC recommendations for your Xeon E5-2680 v4
+
+⸻
+
+Volume III — Ollama & Local AI
+
+* Installing Ollama
+* GPU acceleration
+* Dual Quadro M4000 configuration
+* Model management
+* Pulling models
+* Performance benchmarks
+* Memory management
+* API usage
+* Coding assistants
+* Open WebUI
+* Troubleshooting
+
+⸻
+
+Volume IV — Docker & Containers
+
+* Docker
+* Docker Compose
+* Portainer
+* n8n
+* PostgreSQL
+* Updating Containers
+* Backup Strategy
+* Restore Procedures
+
+⸻
+
+Volume V — Storage & Networking
+
+* RAID5 Layout
+* SSD Replacement
+* mdadm
+* ext4
+* SMART monitoring
+* Tailscale
+* SSH
+* FTP
+* SMB
+* NFS
+* TrueNAS integration
+
+⸻
+
+Volume VI — System Administration
+
+* User Management
+* Groups
+* sudo
+* System Updates
+* Services
+* Journald
+* Cron
+* Systemd
+* Firewall
+* Security
+* UEFI
+* NVIDIA Drivers
+
+⸻
+
+Volume VII — Maintenance & Disaster Recovery
+
+* Daily Checks
+* Weekly Checks
+* Monthly Checks
+* Backup Procedures
+* Restoring RAID
+* Reinstalling Ubuntu
+* Restoring Docker
+* Restoring JupyterHub
+* Restoring BASE-9
+* Restoring Ollama
